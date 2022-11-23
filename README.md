@@ -12,5 +12,8 @@ Usage:
 
 #### Note: The tool may break the port forward in some cases, if that happens, just change the sleep value on line 35"
 
-![scan ongoing](https://github.com/Dogru-Isim/Proxychains-Port-Scanner/blob/main/scan-ongoing.png?raw=true)
-![scan finished](https://github.com/Dogru-Isim/Proxychains-Port-Scanner/blob/main/scan-finished.png?raw=true)
+## Ongoing scan:
+![scan ongoing](https://github.com/Dogru-Isim/Proxychains-Port-Scanner/blob/main/img/scan-ongoing.png?raw=true)
+
+## Finished scan:
+![scan finished](https://github.com/Dogru-Isim/Proxychains-Port-Scanner/blob/main/img/scan-finished.png?raw=true)
