@@ -18,7 +18,7 @@ if [[ $start_port == *","* ]]; then
   scan_ports=($(echo $start_port | sed 's/,/ /g'))  # Convert to array
   for i in ${scan_ports[@]}; do
     printf "Trying: $ip:$i\r"
-    ( proxychains4 /usr/bin/nc -vz $ip $i 2>&1 | egrep "OK" | tee -a open-ports.txt) &  # -a to work with processes
+    ( proxychains4 /usr/bin/nc -vz $ip $i 2>&1 | grep "OK" | tee -a open-ports.txt) &  # -a to work with processes
     /bin/sleep 0.05
 
     if [[ $i == ${scan_ports[-1]} ]]; then
