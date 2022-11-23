@@ -10,7 +10,7 @@ Usage:
 ./scan.sh ip 80,  # (Notice the comma for single port)
 ```
 
-#### Note: The tool may break the port forward in some cases, if that happens, just change the sleep value on line 35"
+#### Note: The tool may break the port forward in some cases, if that happens, just change the sleep value on line 35
 
 ## Ongoing scan:
 ![scan ongoing](https://github.com/Dogru-Isim/Proxychains-Port-Scanner/blob/main/img/scan-ongoing.png?raw=true)
