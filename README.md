@@ -4,7 +4,7 @@ Nmap is slow enough when is comes to proxychains, here is a fast port scanner th
 
 Usage:
 ```shell
-  ./scan.sh ip start_port end_port"
-  ./scan.sh ip 80,443,3389,5986"
+  ./scan.sh ip start_port end_port
+  ./scan.sh ip 80,443,3389,5986
   ./scan.sh ip 80,"  Notice the comma for single port
 ```
