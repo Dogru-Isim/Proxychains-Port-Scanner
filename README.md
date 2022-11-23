@@ -1,5 +1,5 @@
 # Proxychains-Port-Scanner
-Nmap is slow enough when is comes to proxychains, here is a fast port scanner that runs with proxychains4 an netcat.
+A fast port scanner that runs with proxychains4 an netcat.
 
 Ports will both be displayed and saved to a file called open-ports.txt
 
