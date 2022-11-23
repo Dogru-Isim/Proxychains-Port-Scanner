@@ -9,7 +9,7 @@ if [[ $1 == "-h" || $1 == "help" || $1 == "--help" || $1 == "" ]]; then
   echo "       ./scan.sh ip 80,443,3389,5986"
   echo "       ./scan.sh ip 80,"  Notice the comma for single port
   echo
-  echo "Note: The tool may break the port forward in some cases,  if that happens, just change the sleep value on line 35"
+  echo "Note: The tool may break the port forward in some cases,  if that happens, just change the sleep value on line 37"
 
   exit 0
 fi
